@@ -1,0 +1,62 @@
+html{
+     scroll-behavior: smooth;
+     cursor: pointer;
+
+}
+
+.text-center:hover a img{
+     color: red;
+
+}
+
+.nav-link:hover{
+     color: lightseagreen !important;
+}
+
+
+/* .iframe{
+     position: relative;
+     width: 100%;
+     padding-bottom:56.25% ;} */
+     /*Ratio 16:9 (100%/16*9=56.25)
+
+*/
+/* .iframe >*{
+     display: block;
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     padding: 0;
+     margin: 0;
+     height: 100%;
+     width: 100%;
+
+} */
+
+
+.slide-img{
+     /* background-color: red; */
+     padding-top: 10px;
+     width: 50px;
+     height: 50px;
+     border-radius: 150px;
+
+}
+.slide-section{
+     border-radius: 30px !important;
+}
+
+.hover-item{
+     transform: scale(1);
+}
+.hover-item a:hover{
+     color: tomato !important;
+     font-weight: 600;
+     border-left: 3px solid white;
+     transition: all,0.2s linear;
+}
+.fotter-icon img{
+    width: 30px;
+}
